@@ -60,7 +60,7 @@ nameElem[0].innerHTML = 'Wendy';
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
 var ageElem = document.getElementsByClassName('otherAge');
-nameElem[0].innerHTML = 48;
+ageElem[0].innerHTML = 48;
 
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
 
@@ -74,7 +74,9 @@ nameElem[1].innerHTML = 'Peko Chan';
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
 
-var ageElem = document.getElementsByClassName('otherAge');
+var ageElem = 
+document.getElementsByClassName('otherAge');
+
 ageElem[1].innerHTML = 68;
 
  //Final Boss Create your own profile into the page:
@@ -84,6 +86,14 @@ ageElem[1].innerHTML = 68;
  //div with class name of status
  //div with class anem of Motto
 
+ var nameElem = document.getElementsByClassName('firstName');
 
+ nameElem[2].innerHTML = 'Burger Queen';
 
+ var ageElem = document.getElementsByClassName('otherAge');
+ 
+ ageElem[2].innerHTML = 65;
 
+ var statElem = document.getElementsByClassName('status');
+
+ statElem[2].innerHTML = "It's Complicated";
