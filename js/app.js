@@ -21,7 +21,7 @@ age.innerHTML = '63 Years Old';
 var jobBox = document.createElement('div');
 jobBox.id = 'job';
 jobBox.innerHTML = 'Clown and Restauranteur';
-DataCue.appendChild(jobBox);
+data.appendChild(jobBox);
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
@@ -34,7 +34,7 @@ hobbyBox.innerHTML = "Long romantic walks on the beach, candle light Big Mac din
 
 var locBox = document.createElement('div');
 locBox.id = 'location';
-locBox.innerHTML = 'Honolulu, HI;
+locBox.innerHTML = 'Honolulu, HI';
 data.appendChild(locBox);
 
 
@@ -47,12 +47,15 @@ data.appendChild(wantBox);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
-var proBox = document.createElement('div');
+var proBox = document.createElement('p');
 proBox.id = 'pro2';
-proBox.innerHTML = "I may be a clown, but my humor is not skin deep-I am also a gentleman and a scholar. I can be your prize in your happy meal. Does anyone actually read these things?";
-msWriteProfile.appendChild(proBox);
+proBox.innerHTML = "Back again... I may be a clown, but my humor is not skin deep-I am also a gentleman and a scholar. I can be your prize in your happy meal. Does anyone actually read these?";
+profile.appendChild(proBox);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
+
+var nameElem = document.getElementsByClassName('firstName');
+nameElem[0].innerHTML = 'Wendy';
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
