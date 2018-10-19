@@ -40,6 +40,11 @@ data.appendChild(locBox);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
+var wantBox = document.createElement('div');
+wantBox.id = 'wants';
+wantBox.innerHTML = 'Looking for a Mrs. McDonald';
+data.appendChild(wantBox);
+
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
